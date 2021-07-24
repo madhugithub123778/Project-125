@@ -1,0 +1,76 @@
+#head{
+background-color: cornsilk; width: 100%;margin-top: 0px;padding: 5px;
+box-shadow: 10px 10px 20px darkorange;
+}
+
+#title{
+font-family: 'Courier New';text-shadow: 4px 4px 8px orangered;font-weight: bold;font-size: 30px;
+
+
+}
+
+#title_2{
+font-family: 'Verdana';background-color: yellow;width: 500px;text-shadow: 2px 2px 4px turquoise
+
+
+}
+
+.note{
+font-family: monospace;font-size: 16px;background-color: palevioletred;border: 2px dashed darkred
+
+
+}
+
+.footer{
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    background-color: goldenrod;
+    color: black;
+    width: 100%;
+    line-height: 3;
+    font-size: 19px;
+    font-family:'Cochin';
+    font-weight: bold;
+    }
+
+    canvas{
+
+border: 5px outset maroon; 
+animation-name: ani;
+    animation-duration: 1s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;}
+
+@keyframes ani{
+        from {box-shadow: 5px 5px 30px red;}
+        
+        to {box-shadow: 3px 3px 30px magenta;}
+    }
+
+    VIDEO{
+
+        border: 5px inset maroon;
+        animation-name: exam;
+    animation-duration: 1s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    }
+
+    @keyframes exam{
+        from {box-shadow: 5px 5px 30px orangered;}
+        
+        to {box-shadow: 3px 3px 30px yellow;}
+    }
+
+#size_box{
+font-family: 'Courier New';font-size: 16px;margin-top: 10px;
+
+
+}
+
+#name_input{
+
+width: 230px;height:35px;margin-top: 10px;margin-left: 20px;background-color: lightgrey;color: black;font-family: monospace;
+
+}
